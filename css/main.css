@@ -1,3 +1,20 @@
 html {
   font-family: "Open Sans", sans-serif;
 }
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+button :hover {
+  background-color: #f2f2f2;
+  color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .pad {
+    padding: 1rem .5rem;
+  }
+
+}
